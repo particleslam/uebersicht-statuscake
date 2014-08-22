@@ -3,7 +3,11 @@ StatusCake report
 
 This is a widget for [Übersicht](http://tracesof.net/uebersicht/) that displays the status of your sites being monitored by the [StatusCake](http://statuscake.com/) service.
 
+## Details
+
 If a site is **up**, it will be preceded by a *green* dot, if **down** it will be preceded by a blinking *red* dot.
+
+![image](https://raw.githubusercontent.com/things/uebersicht-statuscake/master/screenshot.png)
 
 ## Configuration
 
