@@ -1,7 +1,7 @@
 STATUSCAKE_API_KEY = 'insert your API key here'
 STATUSCAKE_USERNAME = 'insert your username here'
 
-command: "curl -sS -H 'API: #{ STATUSCAKE_API_KEY }' -H 'Username: #{ STATUSCAKE_USERNAME }' -X GET https://www.statuscake.com/API/Tests/"
+command: "curl -sS -H 'API: #{ STATUSCAKE_API_KEY }' -H 'Username: #{ STATUSCAKE_USERNAME }' -X GET https://app.statuscake.com/API/Tests/"
 refreshFrequency: 600000  # Milliseconds between calls
 
 
